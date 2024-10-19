@@ -1,0 +1,108 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: black;
+    color: white;
+}
+.menu-item{
+    background-color: rgba(255, 255, 255, 0.315);
+    width: 150px;
+    font-size: 16px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid rgba(255, 255, 255, 0.356);
+    margin: 10px;
+}
+/* .menu-item-details{
+    display: flex;
+    justify-content: space-between;
+} */
+ .order{
+    background-color: black;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    padding-left: 50px;
+    padding-right: 50px;
+ }
+ .order:hover{
+    background-color: rgba(0, 0, 0, 0.219);
+ }
+ .container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+ }
+ nav img{
+    /* width: 200px; */
+/* margin-top: 100px; */
+/* position: absolute; */
+/* margin-bottom: 200px; */
+ }
+ nav{
+    justify-content: center;
+    display: flex;
+    /* margin-top: 40px; */
+    margin-bottom: 40px;
+    background-color: rgba(128, 128, 128, 0.5);
+    position: relative;
+    /* margin-top: -100px; */
+    height: 180px;
+    z-index: 1;
+ }
+ .header-img{
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: -190px;
+    z-index: 999;
+    position: relative;
+    border-radius: 20px;
+    margin-bottom: 20px;
+ }
+
+ footer{
+    background-color: rgba(128, 128, 128, 0.5);
+    padding: 100px;
+    text-align: center;
+    font-size: 18px;
+    bottom: 0%;
+ }
+ footer a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+ }
+ .container-main{
+    margin-bottom: 50px;
+ }
+ span{
+    font-weight: bolder;
+    text-decoration: underline;
+    color: rgb(255, 0, 255);
+ }
+ .wtsp{
+    background-color: rgb(22, 192, 0);
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+ }
+ .wtsp-btn img{
+    width: 40px;
+    margin-top: 10px;
+    margin-left: 12px;
+    
+ }
+ /* .wtsp img{
+    right: 20px;
+    bottom: 20px;
+ } */
+ .wtsp a{
+    right: 20px;
+    bottom: 20px;
+ }
